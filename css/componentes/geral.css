@@ -1,0 +1,42 @@
+body {
+  margin: 0px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+h1,
+h2,
+h3,
+h4,
+ul,
+p,
+blockquote,
+dd {
+  margin: 0px;
+}
+
+.logo {
+  width: 200px;
+}
+
+img[src$=".jpg"] {
+  border-radius: 5px;
+}
+
+ul {
+  padding: 0px;
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+  font: "Poppins";
+  font-weight: 400;
+  color: #555;
+  transition: all ease 0.3s;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+}

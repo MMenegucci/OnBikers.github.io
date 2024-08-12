@@ -1,0 +1,93 @@
+.bicicletas-lista-bg {
+  background: black;
+}
+
+.bicicletas-lista {
+  padding-top: 80px;
+  padding-bottom: 120px;
+}
+
+.bikename {
+  color: white;
+}
+
+.preco {
+  color: #989898;
+}
+
+.texto-selecione {
+  color: white;
+  margin-bottom: 40px;
+}
+
+.bicicletas-lista ul {
+  display: flex;
+  gap: 40px;
+  padding: 0 40px 20px 20px;
+  max-width: 1400px;
+  margin-left: auto;
+  margin-right: auto;
+  overflow-x: auto;
+}
+
+#bicicleta bicicletas-lista ul {
+  padding: 0 0px 20px 0px;
+}
+
+#bicicleta .bicicletas-lista-bg {
+  background: white;
+}
+
+#bicicleta .preco {
+  color: #444;
+}
+
+#bicicleta .texto-selecione {
+  color: black;
+}
+
+.bicicletas-lista li {
+  min-width: 280px;
+}
+
+.bicicletas-lista a {
+  display: block;
+}
+
+.bicicletas-lista img {
+  margin-bottom: 15px;
+}
+
+.bicicletas-lista h3 {
+  display: flex;
+  margin-bottom: 8px;
+  align-items: center;
+}
+
+.bicicletas-lista h3::before {
+  content: "";
+  display: inline-block;
+  height: 12px;
+  width: 12px;
+  margin-right: 8px;
+  background-color: #ff5c00;
+  border-radius: 20px;
+  transition: 0.4s;
+}
+
+.bicicletas-lista a:hover h3::before {
+  width: 24px;
+}
+
+.bicicletas-lista .preco {
+  padding-left: 20px;
+}
+
+@media (max-width: 800px) {
+  .bicicletas-lista {
+    padding-bottom: 60px;
+  }
+  .bicicletas-lista ul {
+    gap: 20px;
+  }
+}
