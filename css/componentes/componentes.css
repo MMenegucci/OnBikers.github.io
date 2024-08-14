@@ -25,10 +25,6 @@
   transition: all ease 0.3s;
 }
 
-.botao:hover {
-  background: #f04800;
-}
-
 .botao.secundario {
   transition: 0.3s;
   background: #333;

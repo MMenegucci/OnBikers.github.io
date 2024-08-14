@@ -1,0 +1,20 @@
+#senha {
+  background: linear-gradient(#111 360px, #eeeeee 0px);
+}
+
+#senha .conta-dados {
+  display: none;
+}
+
+#senha .conta {
+  grid-template-columns: 1fr;
+}
+
+#senha .form label {
+  margin-top: 15px;
+  margin-bottom: 10px;
+}
+
+#senha .botao {
+  margin-top: 20px;
+}

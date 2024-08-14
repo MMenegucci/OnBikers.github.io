@@ -16,6 +16,7 @@
 
 .form input[type="text"],
 .form input[type="email"],
+.form input[type="password"],
 .form textarea {
   font: 400 1rem/1.5 "poppins", sans-serif;
   background: #eee;
@@ -28,6 +29,7 @@
 
 .form input[type="text"]:focus,
 .form input[type="email"]:focus,
+.form input[type="password"]:focus,
 .form textarea:focus {
   outline: none;
   border-color: #ff5c00;

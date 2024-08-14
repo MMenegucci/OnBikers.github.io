@@ -58,6 +58,10 @@
   margin-bottom: 15px;
 }
 
+.bicicletas-lista:hover {
+  transform: scaleY(5px);
+}
+
 .bicicletas-lista h3 {
   display: flex;
   margin-bottom: 8px;

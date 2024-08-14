@@ -1,0 +1,12 @@
+#entrar {
+  background: linear-gradient(#111 360px, #eeeeee 0px);
+}
+
+.senha {
+  display: inline-block;
+  margin-top: 10px;
+}
+
+.senha:hover {
+  color: #666;
+}

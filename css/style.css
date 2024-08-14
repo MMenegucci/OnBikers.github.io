@@ -22,6 +22,13 @@
 /*Footer*/
 @import "./footer/footer.css";
 
+/*Conta*/
+@import "./conta/conta.css";
+
+/*Entrar*/
+@import "./entrar/entrar.css";
+@import "./entrar/senha.css";
+
 /*Contato*/
 @import "./contato/contato.css";
 @import "./contato/lojas.css";

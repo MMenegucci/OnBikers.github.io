@@ -16,21 +16,50 @@
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@1,900&family=Poppins:wght@400;600&family=Roboto:ital,wght@1,900&display=swap" rel="stylesheet">
+
+  <script src="menu.js" defer></script>
 </head>
 
 <body id="termos">
   <header class="header-bg">
     <div class="header container">
-      <a href="">
+      <a href="./index.html">
         <img class="logo" src="./img/OnBikers 2.png" alt="">
       </a>
 
       <nav aria-label="primaria"></nav>
-      <ul class="header-menu font-media-1">
-        <li><a href="./flashbike.html">Bicicletas</a></li>
-        <li><a href="./seguros.html">Seguros</a></li>
-        <li><a href="./contato.html">Contato</a></li>
-      </ul>
+      <div class="header-menuzin">
+        <ul class="header-menu font-media-1">
+          <li><a href="./conta.html">Criar Conta</a></li>
+          <li><a href="./bicicletas.html">Bicicletas</a></li>
+          <li><a href="./seguros.html">Seguros</a></li>
+          <li><a href="./contato.html">Contato</a></li>
+          <a href="./entrar.html">Entrar</a>
+        </ul>
+      </div>
+
+      <div class="btn-abrir-menu" id="btn-menu">
+        <img class="abrir" src="./img/icones/menu.png" alt="">
+      </div>
+
+      <div class="menu-mobile" id="menu-mobile">
+        <div class="btn-fechar">
+          <img class="fechar" src="./img/icones/fechar.png" alt="">
+        </div>
+
+        <div class="menu">
+          <ul class="font-media-1">
+            <li><a href="./bicicletas.html">Criar Conta</a></li>
+            <li><a href="./bicicletas.html">Bicicletas</a></li>
+            <li><a href="./seguros.html">Seguros</a></li>
+            <li><a href="./seguros.html">Contato</a></li>
+            <li><a href="./contato.html">Entrar</a></li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="overlay-menu" id="overlay-menu"></div>
+
     </div>
   </header>
 

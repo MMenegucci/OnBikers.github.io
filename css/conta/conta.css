@@ -1,0 +1,119 @@
+#conta {
+  background: linear-gradient(#111 410px, #eeeeee 0px);
+}
+
+.conta {
+  display: grid;
+  grid-template-columns: 5fr 5fr;
+  margin-bottom: 50px;
+  margin-top: 50px;
+}
+
+.entrar {
+  display: block;
+  padding: 10px 20px;
+  background: linear-gradient(#ff7223, #ff5c00);
+  border-radius: 4px;
+  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.2);
+  text-transform: uppercase;
+  color: #fff;
+  font-size: 14px;
+  line-height: 1.33;
+  font: "Roboto";
+  font-weight: 600;
+  max-width: max-content;
+  border: none;
+  cursor: pointer;
+  transition: all ease 0.3s;
+  margin-left: auto;
+}
+
+.cadastro {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  justify-content: space-around;
+}
+
+.cadastre {
+  white-space: nowrap;
+}
+
+.cadastre-tx {
+  display: inline-block;
+  position: relative;
+  margin-bottom: 35px;
+}
+
+.cadastre-tx::after {
+  content: "";
+  display: inline;
+  width: 100%;
+  height: 70%;
+  border-radius: 50%;
+  top: 20px;
+  left: -1px;
+  border-bottom: 5px solid #ff7300;
+  position: absolute;
+}
+
+.conta-dados,
+.conta-formulario {
+  padding: 60px;
+  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.2);
+}
+
+.conta-dados {
+  align-content: center;
+  border-radius: 5px 0 0 5px;
+  background: linear-gradient(#ff9500 120px, #f04800);
+}
+
+.conta-formulario {
+  border-radius: 0 5px 5px 0;
+  background: white url("../img/dec/bottom-right.svg") no-repeat bottom 20px
+    right 20px;
+}
+
+@media (max-width: 1150px) {
+  .conta {
+    grid-template-columns: 4fr 5fr;
+}
+
+@media (max-width: 1000px){
+  .conta-dados {
+    display: none;
+  }
+  .conta {
+    grid-template-columns: 1fr;
+}
+}
+
+@media (max-width: 800px) {
+  .conta {
+    grid-template-columns: 1fr;
+  }
+  .conta-dados,
+  .conta-formulario {
+    padding: 20px;
+  }
+  .conta-dados {
+    border-radius: 5px 5px 0 0;
+    background: black;
+  }
+  .conta-formulario {
+    border-radius: 0 0 5px 5px;
+  }
+  .conta-dados h2,
+  conta-meios a:nth-child(3) {
+    margin-bottom: 32px;
+  }
+  .conta-redes {
+    margin-bottom: 12px;
+  }
+}
+
+@media (max-width: 450px) {
+  .cadastre-tx {
+    font-size: 1.5rem;
+  }
+}
