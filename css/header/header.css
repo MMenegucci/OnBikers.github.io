@@ -34,7 +34,8 @@
   transition: all ease 0.5s;
   position: absolute;
 }
-.header-menu a:hover:after {
+.header-menu a:hover:after,
+.header-menu a.ativo::after {
   width: 100%;
 }
 
@@ -109,7 +110,7 @@
   display: none;
 }
 
-@media (max-width: 1000px) {
+@media (max-width: 900px) {
   .header-menu {
     gap: 20px;
   }
@@ -126,7 +127,7 @@
   }
 }
 
-@media (max-width: 9000px) {
+@media (max-width: 700px) {
   .header-menu {
     display: none;
   }

@@ -46,7 +46,7 @@
   width: 18px;
   height: 10px;
   margin-left: 10px;
-  background-image: url(./img/icones/seta\ 2.svg);
+  background-image: url("./img/icones/seta\ 2.svg");
   transition: transform 0.3s;
 }
 
@@ -159,6 +159,43 @@
 
 .font-grande-4 {
   font: 600 4rem/1.125 "Poppins", sans serif;
+}
+
+/*Animação*/
+.js .hidden {
+  opacity: 0;
+  filter: blur(7px);
+  transform: translatey(-100%);
+  transition: all 1s;
+}
+
+.js .show {
+  opacity: 1;
+  filter: blur(0);
+  transform: translatey(0);
+  transition: all 1s;
+}
+
+.js .hiddenx {
+  opacity: 0;
+  filter: blur(7px);
+  transform: translateX(-100%);
+  transition: all 1s;
+}
+
+.js .showx {
+  opacity: 1;
+  filter: blur(0);
+  transform: translatex(0);
+  transition: all 1s;
+}
+
+.js .img2 {
+  transition-delay: 400ms;
+}
+
+.js .img3 {
+  transition-delay: 700ms;
 }
 
 @media (max-width: 600px) {

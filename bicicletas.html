@@ -10,14 +10,16 @@
   <meta name="description" content="Termos e Condições">
 
 
-  <link rel="preload" href="./css/style.css" as="style">
-  <link rel="stylesheet" href="./css/style.css">
+  <link rel="icon" href="./img/OnBikers 2.png" type="image/png">
+  <link rel="preload" href="./css/style.min.css" as="style">
+  <link rel="stylesheet" href="./css/style.min.css">
 
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@1,900&family=Poppins:wght@400;600&family=Roboto:ital,wght@1,900&display=swap" rel="stylesheet">
 
   <script src="./javascript/menu.js" defer></script>
+  <script>document.documentElement.classList.add('js');</script>
 </head>
 
 <body id="bicicletas">
@@ -31,7 +33,6 @@
       <div class="header-menuzin">
         <ul class="header-menu font-media-1">
           <li><a href="./conta.html">Criar Conta</a></li>
-          <li><a href="./bicicletas.html">Bicicletas</a></li>
           <li><a href="./seguros.html">Seguros</a></li>
           <li><a href="./contato.html">Contato</a></li>
           <a href="./entrar.html">Entrar</a>
@@ -66,7 +67,7 @@
   <main>
     <div class="titulo-bg">
       <div class="titulo container">
-        <h1 class="branco font-grande-4">Nossas OnBikers<span class="ponto">.</span></h1>
+        <h1 class="branco font-grande-4 hidden">Nossas OnBikers<span class="ponto">.</span></h1>
       </div>
     </div>
 
@@ -74,9 +75,9 @@
       <div class="bicicleta-bg">
         <div class="bicicletas container">
           <div class="bicicletas-conteudo">
-            <h2 class="font-grande-3-2-1 preto">Speed Bike</h2>
-            <p class="preto font-media-1">A Speed Biker da OnBikers é uma bicicleta de alta performance, leve e eficiente. Feita com fibra de carbono e componentes modernos, oferece durabilidade e trocas de marcha suaves. Ideal para ciclistas exigentes, é a escolha perfeita para alcançar máxima velocidade e desempenho.</p>
-            <ul class="font-media-3 cinza">
+            <h2 class="font-grande-3-2-1 preto hiddenx">Speed Bike</h2>
+            <p class="preto font-media-1 hiddenx">A Speed Biker da OnBikers é uma bicicleta de alta performance, leve e eficiente. Feita com fibra de carbono e componentes modernos, oferece durabilidade e trocas de marcha suaves. Ideal para ciclistas exigentes, é a escolha perfeita para alcançar máxima velocidade e desempenho.</p>
+            <ul class="font-media-3 cinza hiddenx">
               <li>
                 <img src="./img/icones/speed.png" width="36" height="31" alt="">
                 Feita de Alumínio
@@ -98,11 +99,11 @@
                 Freio a disco hidráulico
               </li>
             </ul>
-            <a class="botao seta" href="./speed.html">Saiba Mais</a>
+            <a class="botao seta hidden" href="./speed.html">Saiba Mais</a>
           </div>
           <div class="bicicleta-img">
-            <img src="./img/bicicletas/pordosol.jpg" width="1120" height="680" alt="Bicicleta Preta">
-            <span class="font-grande-1 branco">R$ 6.200,00</span>
+            <img class="hiddenx" src="./img/bicicletas/pordosol.jpg" width="1120" height="680" alt="Bicicleta Preta">
+            <span class="font-grande-1 branco hiddenx">R$ 6.200,00</span>
           </div>
         </div>
       </div>
@@ -144,9 +145,9 @@
       <div class="bicicleta-bg">
         <div class="bicicletas container">
           <div class="bicicletas-conteudo">
-            <h2 class="font-grande-3-2-1 preto">Velocity Bike</h2>
-            <p class="preto font-media-1">A Velocity da OnBikers é uma bicicleta de alta performance, leve e eficiente. Feita com fibra de carbono e componentes modernos, oferece durabilidade e trocas de marcha suaves. Ideal para ciclistas exigentes, é a escolha perfeita para alcançar máxima velocidade e desempenho.</p>
-            <ul class="font-media-3 cinza">
+            <h2 class="font-grande-3-2-1 preto hiddenx">Velocity Bike</h2>
+            <p class="preto font-media-1 hiddenx">A Velocity da OnBikers é uma bicicleta de alta performance, leve e eficiente. Feita com fibra de carbono e componentes modernos, oferece durabilidade e trocas de marcha suaves. Ideal para ciclistas exigentes, é a escolha perfeita para alcançar máxima velocidade e desempenho.</p>
+            <ul class="font-media-3 cinza hiddenx">
               <li>
                 <img src="./img/icones/speed.png" width="36" height="31" alt="">
                 Feita de Alumínio
@@ -164,11 +165,11 @@
                 Freio a disco hidráulico
               </li>
             </ul>
-            <a class="botao seta" href="./velocity.html">Saiba Mais</a>
+            <a class="botao seta" href="./velocity.html hidden">Saiba Mais</a>
           </div>
           <div class="bicicleta-img">
-            <img src="./img/bicicletas/laranja.jpg" width="1120" height="680" alt="Bicicleta Branca">
-            <span class="font-grande-1 branco">R$ 7.750,00</span>
+            <img class="hiddenx" src="./img/bicicletas/laranja.jpg" width="1120" height="680" alt="Bicicleta Branca">
+            <span class="font-grande-1 branco hiddenx">R$ 7.750,00</span>
           </div>
         </div>
       </div>
@@ -206,9 +207,9 @@
       <div class="bicicleta-bg">
         <div class="bicicletas container">
           <div class="bicicletas-conteudo">
-            <h2 class="font-grande-3-2-1 preto">First Bike</h2>
-            <p class="preto font-media-1">A First Bike da OnBikers é uma bicicleta de alta performance, leve e eficiente. Feita com fibra de carbono e componentes modernos, oferece durabilidade e trocas de marcha suaves. Ideal para ciclistas exigentes, é a escolha perfeita para alcançar máxima velocidade e desempenho.</p>
-            <ul class="font-media-3 cinza">
+            <h2 class="font-grande-3-2-1 preto hiddenx">First Bike</h2>
+            <p class="preto font-media-1 hiddenx">A First Bike da OnBikers é uma bicicleta de alta performance, leve e eficiente. Feita com fibra de carbono e componentes modernos, oferece durabilidade e trocas de marcha suaves. Ideal para ciclistas exigentes, é a escolha perfeita para alcançar máxima velocidade e desempenho.</p>
+            <ul class="font-media-3 cinza hiddenx">
               <li>
                 <img src="./img/icones/speed.png" width="36" height="31" alt="">
                 Feita de Alumínio
@@ -226,11 +227,11 @@
                 Freio a disco hidráulico
               </li>
             </ul>
-            <a class="botao seta" href="./first.html">Saiba Mais</a>
+            <a class="botao seta hidden" href="./first.html">Saiba Mais</a>
           </div>
           <div class="bicicleta-img">
-            <img src="./img/bicicletas/verde.jpg" width="1120" height="680" alt="Bicicleta Branca">
-            <span class="font-grande-1 branco">R$ 7.350,00</span>
+            <img class="hiddenx" src="./img/bicicletas/verde.jpg" width="1120" height="680" alt="Bicicleta Branca">
+            <span class="font-grande-1 branco hiddenx">R$ 7.350,00</span>
           </div>
         </div>
       </div>
@@ -245,8 +246,8 @@
         <ul class="font-media-1-2">
           <li><a href="tel:+5512999887766">+55 12 99988-7766</a></li>
           <li><a href="mailto:empresarial@onbikers.com">empresarial@onbikers.com</a></li>
-          <li class="rua">Rua Consolação Almeida Patriota, 78 - Jaguatirunga</li>
-          <li>São José dos Campos - SP</li>
+          <li class="rua cinza">Rua Consolação Almeida Patriota, 78 - Jaguatirunga</li>
+          <li class="cinza">São José dos Campos - SP</li>
         </ul>
         <div class="footer-redes">
           <a href="./">
